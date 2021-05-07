@@ -1,0 +1,11 @@
+{
+  "python.pythonPath": "/home/loganwebb/.pyenv/versions/3.9.1/bin/python",
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "name": "level up server",
+      "database": "db.sqlite3"
+    }
+  ]
+}
