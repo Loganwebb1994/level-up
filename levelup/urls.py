@@ -31,5 +31,6 @@ urlpatterns = [
     path('register', register_user),
     path('login', login_user),
     path('api-auth', include('rest_framework.urls', namespace='rest_framework')),
+    path('', include('levelupreports.urls')),
     path('', include(router.urls))
 ]
